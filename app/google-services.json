@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "61819984740",
+    "project_id": "walert-93fb0",
+    "storage_bucket": "walert-93fb0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61819984740:android:74e260073b7848116a7871",
+        "android_client_info": {
+          "package_name": "com.example.walert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61819984740-gh9k6i4lsk0vbdatqs49kesm8tc3ha28.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtS6cKE_YpP6WrwYdVTXYUIZeAj-2_rEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61819984740-gh9k6i4lsk0vbdatqs49kesm8tc3ha28.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".ProfileActivity">
+
+    <include
+        layout="@layout/appbarforhomeactivty"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textSize="20sp"
+        android:textColor="#0491A5"/>
+
+    <TextView
+        android:id="@+id/emailidTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Id:"
+        android:textSize="20sp"
+        android:textColor="#0491A5"
+        android:layout_marginTop="200dp"/>
+    <TextView
+        android:id="@+id/emailid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@id/emailidTitle"
+        android:textColor="#0491A5"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/nameTitile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textSize="20sp"
+        android:textColor="#0491A5"
+        android:layout_below="@+id/emailid"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:id="@+id/nameProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@id/nameTitile"
+        android:textColor="#0491A5"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+
+</RelativeLayout>
